@@ -45,6 +45,10 @@
     font-size: 12px;
 }
 
+.header__navbar-hidden {
+    display: none;
+}
+
 .header__navbar-hidden1,
 .header__navbar-hidden2,
 .header__navbar-hidden3 {
@@ -56,11 +60,15 @@
     min-height: 200px;
     background-color: #f3f3f3;
     border: 1px solid #000;
-    display: none;
+    display: flex;
 }
 
-.menu__items1:hover .header__navbar-hidden1 {
-    display: flex;
+.header__menu-group:hover .header__navbar-hidden {
+    display: block;
+}
+
+.header__menu-group:hover .ti-angle-down {
+    transform: rotate(180deg);
 }
 
 .navbar-hidden__content,
