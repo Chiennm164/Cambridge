@@ -6,6 +6,7 @@
 }
 
 .header__navbar {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }
@@ -44,13 +45,11 @@
     font-size: 12px;
 }
 
-.header__navbar-hidden {
-    position: relative;
-}
-
 .header__navbar-hidden1,
 .header__navbar-hidden2,
 .header__navbar-hidden3 {
+    line-height: 20px;
+    left: 0;
     position: absolute;
     top: 100%;
     width: 100%;
@@ -60,10 +59,8 @@
     display: none;
 }
 
-.header__menu-group .menu__items3:hover .header__navbar-hidden {
+.menu__items1:hover .header__navbar-hidden1 {
     display: flex;
-    opacity: 0.9;
-    color: #fff;
 }
 
 .navbar-hidden__content,
