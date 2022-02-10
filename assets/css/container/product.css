@@ -1,0 +1,30 @@
+.container__product {
+    padding-top: 40px;
+    background-color: #f3f3f3;
+}
+
+.container__product-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -8px;
+    margin-left: -8px;
+}
+
+.container__product-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px;
+}
+
+.container__product-items-img {
+    width: 50%;
+}
+
+.container__product-items-content {}
+
+.container__product-items-title {}
+
+.container__product-items-decrip {}
+
+.container__product-items-decrip {}
