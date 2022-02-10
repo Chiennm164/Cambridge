@@ -1,0 +1,15 @@
+.container__featured {
+    width: 100%;
+    min-height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
+.container__featured-items {
+    width: 50%;
+    background-color: red;
+    height: 100px;
+    margin: 8px;
+}
