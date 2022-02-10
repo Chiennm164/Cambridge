@@ -16,6 +16,15 @@
     .wide {
         width: 95%;
     }
+    .banner {
+        min-height: 400px;
+    }
+    .banner__title {
+        font-size: 25px;
+    }
+    .banner__description {
+        font-size: 14px;
+    }
 }
 
 @media (max-width:740px) {
@@ -41,5 +50,16 @@
     .header__menu-btn:hover .header__menu-mobile {
         display: block;
         opacity: 1;
+    }
+    /* banner */
+    .banner {
+        min-height: 350px;
+    }
+    .banner__title {
+        font-size: 20px;
+    }
+    .banner__description {
+        font-size: 14px;
+        width: 480px;
     }
 }
