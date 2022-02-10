@@ -1,8 +1,9 @@
 .header {
     width: 100%;
-    height: 60px;
+    height: 58px;
     background-color: #fff;
     position: relative;
+    position: fixed;
 }
 
 .header__navbar {
@@ -31,9 +32,7 @@
     align-items: center;
 }
 
-.menu__items1,
-.menu__items2,
-.menu__items3 {
+.menu__items {
     padding: 0 10px;
     color: #000;
     font-weight: 400;
@@ -49,9 +48,9 @@
     display: none;
 }
 
-.header__navbar-hidden1,
-.header__navbar-hidden2,
-.header__navbar-hidden3 {
+.header__navbar-hidden-product,
+.header__navbar-hidden-about,
+.header__navbar-hidden-careers {
     line-height: 20px;
     left: 0;
     position: absolute;
@@ -59,7 +58,6 @@
     width: 100%;
     min-height: 200px;
     background-color: #f3f3f3;
-    border: 1px solid #000;
     display: flex;
 }
 
@@ -100,5 +98,83 @@
 }
 
 .navbar-hidden__items:hover {
+    text-decoration: underline;
+}
+
+.header__menu-btn {
+    display: none;
+}
+
+.header__menu-btn-span {
+    padding: 10px;
+}
+
+.header__menu-mobile {
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+    padding: 0 10px 0 16px;
+}
+
+.header__menu-mobile::after {
+    content: '';
+    width: 100%;
+    height: 20px;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+}
+
+.header__menu-mobile-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 35px;
+}
+
+.menu-mobile__items-content {
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.menu-mobile__items-content:hover {
+    text-decoration: underline;
+}
+
+.menu-mobile__items-span {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.header__menu-mobile-items:hover .menu-mobile__span-list {
+    display: flex;
+}
+
+.header__menu-mobile-items-boder {
+    border-bottom: 1px solid #ccc;
+}
+
+.menu-mobile__span-list {
+    position: absolute;
+    top: 0;
+    left: 165px;
+    right: 0;
+    min-height: 100px;
+    background-color: #fff;
+    display: none;
+    flex-direction: column;
+}
+
+.menu-moblie__span-items {
+    padding: 0 0 0 16px;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.menu-moblie__span-items:hover {
     text-decoration: underline;
 }
