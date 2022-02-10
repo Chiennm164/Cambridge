@@ -62,4 +62,16 @@
         font-size: 14px;
         width: 480px;
     }
+    .container__about-description {
+        width: 460px;
+    }
+    .container__product-items-img {
+        min-width: 600px;
+    }
+}
+
+@media (min-width:740px) {
+    .container__product-items-img {
+        width: 100%;
+    }
 }
