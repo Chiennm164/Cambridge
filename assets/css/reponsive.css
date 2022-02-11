@@ -2,9 +2,22 @@
     .hide-on-pc {
         display: none;
     }
+    .container__featured-content-title {
+        max-width: 600px;
+    }
+    .container__featured-content-discription {
+        max-width: 400px;
+    }
 }
 
-@media (min-width:1024px) and (max-width:1279px) {}
+@media (min-width:1024px) and (max-width:1279px) {
+    .container__featured-content-title {
+        max-width: 400px;
+    }
+    .container__featured-content-discription {
+        max-width: 300px;
+    }
+}
 
 @media (max-width:1024) {
     .hide-on-tablet {
@@ -24,6 +37,12 @@
     }
     .banner__description {
         font-size: 14px;
+    }
+    .container__featured-content-title {
+        max-width: 300px;
+    }
+    .container__featured-content-discription {
+        max-width: 200px;
     }
 }
 
