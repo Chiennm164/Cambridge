@@ -1,5 +1,6 @@
 .footer {
     min-width: 200px;
+    background: #fff;
 }
 
 .footer__header {}
@@ -56,14 +57,16 @@
     display: flex;
     justify-content: center;
     background-color: #f3f3f3;
-    min-height: 32px;
+    min-height: 40px;
     align-items: center;
     font-weight: 500;
 }
 
 .footer__copyright-content {
     margin: 0 30px;
+    display: flex;
     font-size: 12px;
+    align-items: center;
 }
 
 .footer__copyright-content-items {
@@ -77,8 +80,10 @@
 }
 
 .footer__copyright-content-img {
+    width: 20px;
     padding: 0 5px;
     cursor: pointer;
+    height: 15px;
 }
 
 .footer__copyright-bdr {

@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     min-height: 300px;
-    background: url('/assets/img/nawWideHero.png') center / cover no-repeat;
+    background: url('https://raw.githubusercontent.com/Chiennm164/Cambridge/main/assets/img/nawWideHero.png') center / cover no-repeat;
 }
 
 .container__careers-content {
