@@ -1,0 +1,91 @@
+.container__news {
+    min-height: 200px;
+    padding-bottom: 50px;
+}
+
+.container__news-lists {
+    display: flex;
+}
+
+.container__news-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.container__news-groups {
+    margin: 0px 10px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.container__news-items-img1,
+.container__news-items-img2,
+.container__news-items-img3 {
+    min-height: 220px;
+    position: relative;
+    width: 100%;
+}
+
+.container__news-items-img1 {
+    background: url('https://raw.githubusercontent.com/Chiennm164/Cambridge/main/assets/img/news/GettyImages.png') center /cover no-repeat;
+}
+
+.container__news-items-img2 {
+    background: url('https://raw.githubusercontent.com/Chiennm164/Cambridge/main/assets/img/news/naw2020.png') center /cover no-repeat;
+}
+
+.container__news-items-img3 {
+    background: url('https://raw.githubusercontent.com/Chiennm164/Cambridge/main/assets/img/news/genericnews.png') center /cover no-repeat;
+}
+
+.container__news-items-img-status {
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    font-size: 12px;
+    padding: 4px 8px;
+    background-color: #1d2956;
+    border-radius: 10px;
+    color: #fff;
+}
+
+.container__news-items-content {
+    padding: 20px;
+    min-height: 170px;
+}
+
+.container__news-items-content-date {
+    padding-bottom: 10px;
+}
+
+.container__news-items-content-title {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 1.1;
+    letter-spacing: 1px;
+}
+
+.container__news-items-content-title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container__news-link-tag {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0 10px;
+    color: #2a5db0;
+}
+
+.container__news-link-tag-content:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.container__news-link-tag-content {
+    padding: 0 10px;
+}
+
+.container__news-link-tag-span {}

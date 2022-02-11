@@ -90,6 +90,9 @@
     .footer__body {
         flex-direction: column;
     }
+    .container__news-lists {
+        flex-direction: column;
+    }
 }
 
 @media (min-width:740px) {
