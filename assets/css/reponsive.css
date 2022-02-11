@@ -87,6 +87,9 @@
     .container__product-items-img {
         min-width: 600px;
     }
+    .footer__body {
+        flex-direction: column;
+    }
 }
 
 @media (min-width:740px) {

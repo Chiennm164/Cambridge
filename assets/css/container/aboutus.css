@@ -26,3 +26,8 @@
     padding: 10px 15px;
     color: #fff;
 }
+
+.container__about-btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
