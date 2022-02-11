@@ -3,13 +3,81 @@
     min-height: 400px;
     display: flex;
     flex-wrap: wrap;
-    margin-left: -8px;
-    margin-right: -8px;
 }
 
 .container__featured-items {
-    width: 50%;
-    background-color: red;
-    height: 100px;
-    margin: 8px;
+    display: flex;
+}
+
+.container__featured-items-bg4,
+.container__featured-items-bg3,
+.container__featured-items-bg2,
+.container__featured-items-bg1 {
+    width: 100%;
+    margin: 10px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    align-content: space-around;
+    justify-content: center;
+}
+
+.container__featured-items-bg4 {
+    background: url('/assets/img/careers/books-Featured-Content-TEMPLATE-\(1\)_0.jpg') center /cover no-repeat;
+}
+
+.container__featured-items-bg2 {
+    background: url('/assets/img/careers/Featured\ Content\ TEMPLATE\ \(1\).jpg') center /cover no-repeat;
+}
+
+.container__featured-items-bg3 {
+    background: url('/assets/img/careers/Innovation\ -\ Featured-Content-TEMPLATE-\(1\)_1.jpg') center /cover no-repeat;
+}
+
+.container__featured-items-bg1 {
+    background: url('/assets/img/careers/Featured\ Content\ TEMPLATE\ LGBT_0.jpg') center /cover no-repeat;
+}
+
+.container__featured-content {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 5%;
+    color: #000;
+    align-items: center;
+}
+
+.container__featured-content-title {
+    line-height: 1.1;
+}
+
+.container__featured-content-discription {
+    padding: 10px 0;
+    width: 500px;
+    font-size: 15px;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.container__featured-content-link {
+    display: flex;
+}
+
+.container__featured-content-link-text {
+    color: #000;
+    text-decoration: none;
+}
+
+.container__featured-content-link-text:hover {
+    text-decoration: underline;
+}
+
+.container__featured-content-link-text-span {
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.text-white {
+    color: #fff;
 }
